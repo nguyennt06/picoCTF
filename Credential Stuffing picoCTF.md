@@ -2,11 +2,13 @@
 
 -- At first, download the credentials dump by click [here](https://challenge-files.picoctf.net/c_crystal_peak/d95212c879165808903da2be8aa8f9f8ad7577549d0101f90d9280762a08e713/creds-dump.txt)
 
--- The description said we need to reuse the crendentials from another leaked source in order to login Online Banking Service
+The description says that we need to reuse credentials from a previously leaked source in order to log in to the Online Banking Service
 
-$\implies$ Generate a python script to brute-force the correct `username;password`
+To do this, I wrote a Python script to try each `username:password` pair from the list
 
--- Because the 'wordlist' is too long, I had an idea to create 2 script, indeed, the first one will check the credentials ascendingly and the other go from the bottom
+Since the wordlist is quite large, I created two scripts:
+- one that checks from top to bottom
+- another that checks from bottom to top
 
 <details>
     <summary>Ascending ⏬</summary>
