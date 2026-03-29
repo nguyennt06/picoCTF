@@ -17,7 +17,7 @@
 import socket
 
 HOST = "crystal-peak.picoctf.net"
-PORT = 49832
+PORT = 50707
 
 def recv_until(sock, text):
     data = b""
@@ -73,7 +73,7 @@ with open("creds-dump.txt") as f:
 import socket
 
 HOST = "crystal-peak.picoctf.net"
-PORT = 49832
+PORT = 50707
 
 def recv_until(sock, text):
     data = b""
@@ -124,10 +124,13 @@ with open("creds-dump.txt") as f:
     
 </details>
 
-\- Run the script using `creds-dump.txt` 
+\- Run the two scripts using `creds-dump.txt` 
 ```
 python3 pico_asc.py
 python3 pico_desc.py
 ```
 \- Correct credentials successfully found almost at the same time
-![image](https://hackmd.io/_uploads/BkM7RrUoWx.png)
+
+<img width="320" height="186" alt="image" src="https://github.com/user-attachments/assets/211f0695-7fbf-473c-b610-aa8e85186214" />
+
+
