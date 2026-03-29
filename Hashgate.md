@@ -29,7 +29,8 @@ for i in range(0, 5000):
 ffuf -u http://crystal-peak.picoctf.net:52345/profile/user/FUZZ -w hash_list.txt -fc 404
 ```
 
-<img width="1161" height="601" alt="image" src="https://github.com/user-attachments/assets/6130556a-15a9-48fb-aff4-79a2092b6af8" />
+<img width="1154" height="576" alt="image" src="https://github.com/user-attachments/assets/1302da79-fc2e-41da-ba69-3f9aa2d32f27" />
+
 
 \- Replace the original hash in the URL with the new one that we found and successfully retrieve the flag 😍
 
