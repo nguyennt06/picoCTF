@@ -1,12 +1,12 @@
 ![image](https://hackmd.io/_uploads/HJZcFHLsWl.png)
 
--- At first, download the credentials dump by click [here](https://challenge-files.picoctf.net/c_crystal_peak/d95212c879165808903da2be8aa8f9f8ad7577549d0101f90d9280762a08e713/creds-dump.txt)
+\- At first, download the credentials dump by clicking [here](https://challenge-files.picoctf.net/c_crystal_peak/d95212c879165808903da2be8aa8f9f8ad7577549d0101f90d9280762a08e713/creds-dump.txt)
 
-The description says that we need to reuse credentials from a previously leaked source in order to log in to the Online Banking Service
+\- The description says that we need to reuse credentials from a previously leaked source in order to log in to the Online Banking Service
 
-To do this, I wrote a Python script to try each `username:password` pair from the list
+\- To do this, I wrote a Python script to try each `username:password` pair from the list
 
-Since the wordlist is quite large, I created two scripts:
+\- Since the wordlist is quite large, I created two scripts:
 - one that checks from top to bottom
 - another that checks from bottom to top
 
@@ -124,10 +124,10 @@ with open("creds-dump.txt") as f:
     
 </details>
 
--- Run the script with the `creds-dump.txt` 
+\- Run the script using `creds-dump.txt` 
 ```
 python3 pico_asc.py
 python3 pico_desc.py
 ```
--- Correct credentials successfully found almost at the same time
+\- Correct credentials successfully found almost at the same time
 ![image](https://hackmd.io/_uploads/BkM7RrUoWx.png)
