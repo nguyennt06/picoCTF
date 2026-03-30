@@ -132,6 +132,8 @@ python3 pico_desc.py
 ```
 \- Correct credentials successfully found almost at the same time
 
+
+
 <img width="320" height="186" alt="image" src="https://github.com/user-attachments/assets/211f0695-7fbf-473c-b610-aa8e85186214" />
 
 
